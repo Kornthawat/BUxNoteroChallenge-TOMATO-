@@ -1,6 +1,6 @@
 using System;
 
-namespace Notero.RaindropGameplay.Core
+namespace Hendrix.Gameplay.Core
 {
     /// <summary>
     /// Raindrop gameplay mode[normal, holdon]

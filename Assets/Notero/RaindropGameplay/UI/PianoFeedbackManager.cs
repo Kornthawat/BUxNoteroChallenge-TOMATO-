@@ -1,11 +1,11 @@
-﻿using Notero.RaindropGameplay.Core.Scoring;
+﻿using Hendrix.Gameplay.Core.Scoring;
 using Notero.Unity.MidiNoteInfo;
 using Notero.Unity.UI.VirtualPiano;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace Hendrix.Gameplay.UI
 {
     public class PianoFeedbackManager : MonoBehaviour
     {

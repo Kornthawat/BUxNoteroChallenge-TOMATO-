@@ -1,4 +1,4 @@
-using Notero.RaindropGameplay.Core;
+using Hendrix.Gameplay.Core;
 using Notero.Unity.AudioModule;
 using Notero.Unity.MidiNoteInfo;
 using Notero.Utilities;

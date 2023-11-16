@@ -1,6 +1,6 @@
-﻿using Notero.MidiGameplay.Core;
-using Notero.RaindropGameplay.Core;
-using Notero.RaindropGameplay.UI;
+﻿using Hendrix.Gameplay.Core;
+using Hendrix.Gameplay.UI;
+using Notero.MidiGameplay.Core;
 using Notero.Unity.MidiNoteInfo;
 using Notero.Unity.UI.VirtualPiano;
 using System;

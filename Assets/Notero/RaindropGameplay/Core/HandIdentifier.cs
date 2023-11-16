@@ -1,6 +1,6 @@
 ﻿using Notero.Unity.UI.VirtualPiano;
 
-namespace Notero.RaindropGameplay.Core
+namespace Hendrix.Gameplay.Core
 {
     public static class HandIdentifier
     {
