@@ -1590,7 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b19bef47cc0f0d4b8f4003f9cab6b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TextFeedbackUI: {fileID: 3942017265643537524, guid: 58a47fe597591b444a744edb32d37d64, type: 3}
+  m_TextFeedbackUI: {fileID: 5642352852071817684, guid: c950cb31f41e5ca4ea7997bec641f374, type: 3}
 --- !u!114 &383665275608746542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1603,7 +1603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b18c15b0a39ea49a94f553418be7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PianoFeedbackUI: {fileID: 4558054027629601666, guid: 36c83ae66cce8f34893cea6f5ab119ee, type: 3}
+  m_PianoFeedbackUI: {fileID: 245983987951774893, guid: be158157832b4e340a0804815ba2e708, type: 3}
 --- !u!1 &3772972905990561063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,7 +2767,7 @@ MonoBehaviour:
   stencilId: 1
 --- !u!95 &6706472723429742486
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2784,7 +2784,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6548563112210475797
 GameObject:
   m_ObjectHideFlags: 0
