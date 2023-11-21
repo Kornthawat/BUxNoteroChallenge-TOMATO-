@@ -5,55 +5,159 @@ namespace Notero.RaindropGameplay.UI
 {
     public class ComboPanel : MonoBehaviour
     {
-        public Image healthbar;
-        public Image[] healthPoints;
-        public Image BG; // Reference ของพื้นหลังเดิม
-        public Image FadeBG; // Reference ของพื้นหลังที่ต้องการเปลี่ยน
+       
+            [SerializeField] GameObject box1;
+            [SerializeField] GameObject box2;
+            [SerializeField] GameObject box3;
+            [SerializeField] GameObject box4;
+            [SerializeField] GameObject box5;
+            [SerializeField] GameObject box6;
+            [SerializeField] GameObject box7;
+            [SerializeField] GameObject box8;
+            [SerializeField] GameObject box9;
+            [SerializeField] GameObject box10;
+            [SerializeField] GameObject box11;
 
-        float health = 0;
-        float maxHealth = 110000;
-        float lerpSpeed;
+            private float scoreC = 5;
+            // Start is called before the first frame update
+           
 
-        void Start()
-        {
-            health = 0;
-        }
-
-        void HealthBarFiller()
-        {
-            healthbar.fillAmount = Mathf.Lerp(healthbar.fillAmount, health / maxHealth, lerpSpeed);
-
-            for (int i = 0; i < healthPoints.Length; i++)
+            // Update is called once per frame
+            void Update()
             {
-                healthPoints[i].enabled = !DisplayHealthPoint(health, i);
-            }
-        }
+                if (Input.GetKeyUp(KeyCode.A))
+                {
+                    CheckPerfect();
+                }
 
-        bool DisplayHealthPoint(float _health, int pointNumber)
-        {
-            return ((pointNumber * 3900) >= _health);
-        }
+                if (Input.GetKeyUp(KeyCode.S))
+                {
+                    CheckPerfect();
+                }
 
-        public void Damage(float damagePoints)
-        {
-            if (health > 0)
-                health -= damagePoints;
-        }
+                if (Input.GetKeyUp(KeyCode.D))
+                {
+                    CheckPerfect();
+                }
 
-        public void Heal(float healingPoints)
-        {
-            health = healingPoints;
-            if (health > maxHealth) health = maxHealth;
-
-            lerpSpeed = 1f * Time.deltaTime;
-
-            HealthBarFiller();
-
-            if (health >= 40000)
+            if (Input.GetKeyUp(KeyCode.F))
             {
-                BG.gameObject.SetActive(false); // ปิดการใช้งาน BG
-                FadeBG.gameObject.SetActive(true); // เปิดการใช้งาน FadeBG
+                CheckPerfect();
             }
-        }
+
+            if (Input.GetKeyUp(KeyCode.G))
+            {
+                CheckPerfect();
+            }
+
+            if (Input.GetKeyUp(KeyCode.H))
+            {
+                CheckPerfect();
+            }
+
+            CheckScore();
+
+
+            }
+
+            void CheckPerfect()
+            {
+                Debug.Log(scoreC);
+                if (GameObject.Find("vfx_good_old") != null)
+                {
+                    scoreC = scoreC + 1000f;
+                }
+
+                if (GameObject.Find("vfx_perfect_old") != null)
+                {
+                    scoreC = scoreC + 2000f;
+                }
+
+                if (GameObject.Find("vfx_oops_old") != null)
+                {
+                    scoreC = scoreC + 0f;
+                }
+            }
+
+            void CheckScore()
+            {
+
+                if (scoreC >= 1000f)
+                {
+                    box1.SetActive(true);
+                }
+
+                if (scoreC >= 5000f)
+                {
+                    box2.SetActive(true);
+                }
+
+                if (scoreC >= 10000f)
+                {
+                    box3.SetActive(true);
+                }
+
+                if (scoreC >= 15000f)
+                {
+                    box4.SetActive(true);
+                }
+
+                if (scoreC >= 20000f)
+                {
+                    box5.SetActive(true);
+                }
+
+                if (scoreC >= 25000f)
+                {
+                    box6.SetActive(true);
+                }
+
+                if (scoreC >= 30000f)
+                {
+                    box7.SetActive(true);
+                }
+
+                if (scoreC >= 35000f)
+                {
+                    box8.SetActive(true);
+                }
+
+                if (scoreC >= 40000f)
+                {
+                    box9.SetActive(true);
+                }
+
+                if (scoreC >= 45000f)
+                {
+                    box10.SetActive(true);
+                }
+
+                if (scoreC >= 55000f)
+                {
+                    box11.SetActive(true);
+                }
+
+                if (scoreC < 1000f)
+                {
+                    box1.SetActive(false); 
+                    box2.SetActive(false);
+                    box3.SetActive(false);
+                    box4.SetActive(false);
+                    box5.SetActive(false);
+                    box6.SetActive(false);
+                    box7.SetActive(false);
+                    box8.SetActive(false);
+                    box9.SetActive(false);
+                    box10.SetActive(false);
+                    box11.SetActive(false);
+                  
+                }
+            }
+
+
+
+
+        
     }
 }
+
