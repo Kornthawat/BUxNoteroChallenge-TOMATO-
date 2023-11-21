@@ -2,7 +2,7 @@ using Notero.Utilities;
 using TMPro;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace Hendrix.Gameplay.UI
 {
     public class ScorePanel : MonoBehaviour
     {

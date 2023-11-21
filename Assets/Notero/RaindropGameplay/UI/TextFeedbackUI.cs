@@ -1,8 +1,8 @@
-using Notero.RaindropGameplay.Core.Scoring;
+using Hendrix.Gameplay.Core.Scoring;
 using Notero.Utilities.Pooling;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace Hendrix.Gameplay.UI
 {
     public class TextFeedbackUI : PoolObject<TextFeedbackUI>, IFeedbackDisplayable
     {

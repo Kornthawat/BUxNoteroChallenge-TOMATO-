@@ -1,9 +1,9 @@
-﻿using Notero.RaindropGameplay.Core.Scoring;
+﻿using Hendrix.Gameplay.Core.Scoring;
 using Notero.Unity.MidiNoteInfo;
 using System;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace Hendrix.Gameplay.UI
 {
     public class TextFeedbackManager : MonoBehaviour
     {

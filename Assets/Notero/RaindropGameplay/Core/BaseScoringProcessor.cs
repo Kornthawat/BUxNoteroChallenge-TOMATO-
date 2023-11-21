@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.Events;
 
-namespace Notero.RaindropGameplay.Core.Scoring
+namespace Hendrix.Gameplay.Core.Scoring
 {
     public abstract class BaseScoringProcessor
     {

@@ -1,7 +1,7 @@
-﻿using Notero.RaindropGameplay.Core.Scoring;
+﻿using Hendrix.Gameplay.Core.Scoring;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace Hendrix.Gameplay.UI
 {
     public interface IFeedbackDisplayable
     {
