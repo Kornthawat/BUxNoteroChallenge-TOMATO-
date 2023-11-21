@@ -1192,6 +1192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149220572711702461}
   - component: {fileID: 422276897917677149}
+  - component: {fileID: 2477305633327577248}
   m_Layer: 5
   m_Name: barNew
   m_TagString: Player
@@ -1266,6 +1267,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2477305633327577248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2968215295746336879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d13ff7b8e6b4c8478f7786de12e1bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthbar: {fileID: 0}
+  healthPoints: []
+  BG: {fileID: 0}
+  FadeBG: {fileID: 0}
 --- !u!1 &3105845238269097863
 GameObject:
   m_ObjectHideFlags: 0
