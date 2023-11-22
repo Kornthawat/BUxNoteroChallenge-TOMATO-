@@ -19,14 +19,17 @@ namespace Notero.RaindropGameplay.UI
             [SerializeField] GameObject box11;
 
             [SerializeField] GameObject bg;
-             [SerializeField] GameObject fadeBG;
-            private float scoreC = 5;
+            [SerializeField] GameObject fadeBG;
+            public float scoreC = 5;
+           
+         
             // Start is called before the first frame update
            
 
             // Update is called once per frame
             void Update()
             {
+            
                 if (Input.GetKeyUp(KeyCode.A))
                 {
                     CheckPerfect();
