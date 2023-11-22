@@ -18,6 +18,8 @@ namespace Notero.RaindropGameplay.UI
             [SerializeField] GameObject box10;
             [SerializeField] GameObject box11;
 
+            [SerializeField] GameObject bg;
+             [SerializeField] GameObject fadeBG;
             private float scoreC = 5;
             // Start is called before the first frame update
            
@@ -135,6 +137,8 @@ namespace Notero.RaindropGameplay.UI
                 if (scoreC >= 55000f)
                 {
                     box11.SetActive(true);
+                   fadeBG.SetActive(true);
+              
                 }
 
                 if (scoreC < 1000f)
