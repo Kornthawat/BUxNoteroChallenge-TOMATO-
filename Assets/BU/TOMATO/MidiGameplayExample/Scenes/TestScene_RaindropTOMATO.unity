@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b8fdf955a6fb6d44b1f41153b780b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_GameConnector: {fileID: 0}
   m_GameControllerPrefab: {fileID: 3105845238269097863, guid: c2f08d54d05dc774fb1e2249f16d9ff5, type: 3}
   m_StartGameplayStateButton: {fileID: 1729399543}
   m_StartGameplayPanel: {fileID: 1726403778}
@@ -159,7 +160,8 @@ MonoBehaviour:
   m_MidiFile: {fileID: 4900000, guid: 83f6371caac809d4d8fb01d12d95ba86, type: 3}
   m_BackingTrack: {fileID: 8300000, guid: 2642659fcde340340a6d467c73ce70f4, type: 3}
   m_MidiTimeOffset: 0
-  m_GameMode: 0
+  m_GameName: 0
+  m_BackgroundName: 0
 --- !u!4 &3122486
 Transform:
   m_ObjectHideFlags: 0
