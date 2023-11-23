@@ -16,8 +16,7 @@ namespace Hendrix.Gameplay.UI
         [SerializeField]
         private ScorePanel m_ScorePanel;
 
-        [SerializeField]
-        private ComboPanel m_ComboPanel;
+     
 
         public void SetActive(bool isActive) => gameObject.SetActive(isActive);
 
@@ -37,7 +36,7 @@ namespace Hendrix.Gameplay.UI
 
         public void UpdateScore(float studentCurrentScore) => m_ScorePanel.SetScoreText(studentCurrentScore);
 
-        public void UpdateCombo(float studentCurrentCombo) => m_ComboPanel.Heal(studentCurrentCombo);
+       //public void UpdateCombo(float studentCurrentCombo) => m_ComboPanel.Heal(studentCurrentCombo);
 
         public void SetTimerActive(bool isActive)
         {
@@ -59,7 +58,7 @@ namespace Hendrix.Gameplay.UI
         {
             UpdateAccuracyMeterBar(studentResultInfo.AccuracyPercent, studentResultInfo.StarCount);
             UpdateScore(studentResultInfo.StudentCurrentScore);
-            UpdateCombo(studentResultInfo.StudentCurrentScore);
+            //UpdateCombo(studentResultInfo.StudentCurrentScore);
         }
     }
 }
