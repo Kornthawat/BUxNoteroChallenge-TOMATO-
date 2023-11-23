@@ -1,17 +1,12 @@
-<<<<<<< Updated upstream
-﻿using Notero.MidiGameplay.Core;
-using Notero.RaindropGameplay.Core;
-=======
 ﻿using Notero.RaindropGameplay.Core;
 using Notero.MidiGameplay.Core;
->>>>>>> Stashed changes
 using Notero.Unity.MidiNoteInfo;
 using Notero.Unity.UI.VirtualPiano;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Notero.RaindropGameplay.UI
+namespace BU.TOMATO.MidiGameplay.UI
 {
     public interface IGameplayUIControllable
     {
@@ -49,5 +44,7 @@ namespace Notero.RaindropGameplay.UI
         public void SetVirtualPianoActive(bool isActive);
         public void SetActionBarActive(bool isActive);
         public void SetBarlineActive(bool isActive);
+
+
     }
 }
