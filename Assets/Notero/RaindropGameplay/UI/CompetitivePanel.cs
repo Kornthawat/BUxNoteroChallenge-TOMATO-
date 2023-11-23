@@ -1,9 +1,5 @@
 using Notero.MidiGameplay.Core;
 using Notero.RaindropGameplay.Core;
-<<<<<<< Updated upstream
-=======
-using Notero.RaindropGameplay.UI;
->>>>>>> Stashed changes
 using UnityEngine;
 
 namespace Notero.RaindropGameplay.UI

@@ -1,10 +1,5 @@
-<<<<<<< Updated upstream
 ﻿using Notero.MidiGameplay.Core;
 using Notero.RaindropGameplay.Core;
-=======
-﻿using Notero.RaindropGameplay.Core;
-using Notero.MidiGameplay.Core;
->>>>>>> Stashed changes
 using Notero.Unity.MidiNoteInfo;
 using Notero.Unity.UI.VirtualPiano;
 using System;

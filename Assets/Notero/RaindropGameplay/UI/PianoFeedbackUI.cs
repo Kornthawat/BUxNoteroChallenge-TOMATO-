@@ -1,8 +1,4 @@
 using Notero.RaindropGameplay.Core.Scoring;
-<<<<<<< Updated upstream
-=======
-using Notero.RaindropGameplay.UI;
->>>>>>> Stashed changes
 using Notero.Utilities.Pooling;
 using UnityEngine;
 

@@ -1,11 +1,4 @@
 ﻿using BU.Gameplay.Scoring;
-<<<<<<< Updated upstream
-=======
-using BU.MidiGameplay.UI;
-using Notero.RaindropGameplay.Core;
-using Notero.RaindropGameplay.Core.Scoring;
-using Notero.RaindropGameplay.UI;
->>>>>>> Stashed changes
 using Notero.MidiAdapter;
 using Notero.MidiGameplay.Bot;
 using Notero.MidiGameplay.Core;

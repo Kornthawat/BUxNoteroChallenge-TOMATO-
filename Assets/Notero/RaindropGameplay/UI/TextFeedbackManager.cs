@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
 ﻿using Notero.RaindropGameplay.Core.Scoring;
-=======
-﻿using Notero.RaindropGameplay.Core;
-using Notero.RaindropGameplay.Core.Scoring;
->>>>>>> Stashed changes
 using Notero.Unity.MidiNoteInfo;
 using System;
 using UnityEngine;
