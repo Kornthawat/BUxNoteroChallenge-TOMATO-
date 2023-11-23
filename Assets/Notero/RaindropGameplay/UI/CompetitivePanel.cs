@@ -1,5 +1,6 @@
 using Hendrix.Gameplay.Core;
 using Notero.MidiGameplay.Core;
+using Notero.RaindropGameplay.UI;
 using UnityEngine;
 
 namespace Hendrix.Gameplay.UI
