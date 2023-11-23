@@ -47,7 +47,7 @@ namespace Hendrix.Gameplay.Core
         #endregion
 
         #region Start
-        void StartGameplayWithMusic();
+        void StartGameplay();
         void ShowGameplayControllerHUD();
         #endregion
 
